@@ -1,12 +1,9 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - trokhymovych
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - trokhymovych/WikiCheck
+  - trokhymovych/KI_multilingual_training
+#  - trokhymovych/Data_Visualization
+#  - trokhymovych/geoconsulting
+#  - trokhymovych/Roman_numerals_recognition
