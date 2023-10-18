@@ -2,15 +2,15 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://www.upf.edu/web/wssc'>Web Science and Social Computing Research Group, UPF</a>
+subtitle: 
 
 profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>55.215, </p>
-    <p>Roc Boronat, 138,</p>
+    <p>Office 55.215, </p>
+    <p>Roc Boronat St., 138,</p>
     <p>08018 Barcelona, Spain</p>
 
 news: true  # includes a list of news items
