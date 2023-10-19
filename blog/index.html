@@ -19,7 +19,7 @@ pagination:
   {% assign blog_description_size = site.blog_description | size %}
 
   {% if blog_name_size > 0 or blog_description_size > 0 %}
-  <div class="header-bar">
+  <div style="text-align: left;">
     <h1>{{ site.blog_name }}</h1>
     <h2>{{ site.blog_description }}</h2>
   </div>
@@ -154,7 +154,7 @@ pagination:
 {%- if post.thumbnail -%}
     </div>
   <div class="col-sm-3">
-    <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
+    <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 100%" alt="image">
   </div>
 </div>
 {%- endif -%}

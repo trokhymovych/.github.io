@@ -1,6 +1,7 @@
 require 'feedjira'
 require 'httparty'
 require 'jekyll'
+require 'nokogiri'
 
 module ExternalPosts
   class ExternalPostsGenerator < Jekyll::Generator
@@ -26,6 +27,13 @@ module ExternalPosts
             doc.data['description'] = e.summary;
             doc.data['date'] = e.published;
             doc.data['redirect'] = e.url;
+
+            # Extract the first image link using Nokogiri
+            html_content = Nokogiri::HTML(e.content)
+            first_image = html_content.at_css('img')
+            if first_image
+              doc.data['thumbnail'] = first_image['src']
+            end
             site.collections['posts'].docs << doc
           end
         end
