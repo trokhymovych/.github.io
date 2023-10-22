@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://trokhymovych.github.io/sitemap.xml
+Sitemap: https://www.trokhymovych.com//sitemap.xml
