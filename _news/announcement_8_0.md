@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Glad to served as a Program Committee for [Wikiworkshop'24](https://wikiworkshop.org/). 
+Served as a Program Committee for [Wikiworkshop'24](https://wikiworkshop.org/). 
