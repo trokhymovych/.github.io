@@ -1,5 +1,19 @@
 ---
 ---
+@InProceedings{trokhymovych2024openmultilingualscoringreadability,
+      title={An Open Multilingual System for Scoring Readability of Wikipedia}, 
+      author={Mykola Trokhymovych and Indira Sen and Martin Gerlach},
+      booktitle = {To appear in ACL'24 Main track},
+      year={2024},
+      url = {https://arxiv.org/pdf/2406.01835},
+      selected={true},
+      bibtex_show={true},
+      preview={readability.png},
+      data={https://zenodo.org/records/11371932},
+      abstract={With over 60M articles, Wikipedia has become the largest platform for open and freely accessible knowledge. While it has more than 15B monthly visits, its content is believed to be inaccessible to many readers due to the lack of readability of its text. However, previous investigations of the readability of Wikipedia have been restricted to English only, and there are currently no systems supporting the automatic readability assessment of the 300+ languages in Wikipedia. To bridge this gap, we develop a multilingual model to score the readability of Wikipedia articles. To train and evaluate this model, we create a novel multilingual dataset spanning 14 languages, by matching articles from Wikipedia to simplified Wikipedia and online children encyclopedias. We show that our model performs well in a zero-shot scenario, yielding a ranking accuracy of more than 80% across 14 languages and improving upon previous benchmarks. These results demonstrate the applicability of the model at scale for languages in which there is no ground-truth data available for model fine-tuning. Furthermore, we provide the first overview on the state of readability in Wikipedia beyond English.},
+      code={https://gitlab.wikimedia.org/repos/research/readability-experiments},
+      arxiv={2406.01835}
+}
 
 @inproceedings{10.1145/3580305.3599823,
 abbr={KDD'23},
@@ -12,6 +26,7 @@ address = {New York, NY, USA},
 url = {https://doi.org/10.1145/3580305.3599823},
 html={https://dl.acm.org/doi/abs/10.1145/3580305.3599823},
 supp={https://www.youtube.com/watch?v=hStaW2PPF0c},
+data={https://zenodo.org/records/8174336},
 doi = {10.1145/3580305.3599823},
 abstract = {This paper presents a novel design of the system aimed at supporting the Wikipedia community in addressing vandalism on the platform. To achieve this, we collected a massive dataset of 47 languages, and applied advanced filtering and feature engineering techniques, including multilingual masked language modeling to build the training dataset from human-generated data. The performance of the system was evaluated through comparison with the one used in production in Wikipedia, known as ORES. Our research results in a significant increase in the number of languages covered, making Wikipedia patrolling more efficient to a wider range of communities. Furthermore, our model outperforms ORES, ensuring that the results provided are not only more accurate but also less biased against certain groups of contributors.},
 booktitle = {Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
@@ -104,18 +119,4 @@ slides = {papers_slides/GeoDD_ End-to-end spatial data de-duplication system.pdf
   html={https://wikiworkshop.org/papers/wikidata-vandalism-detection-with-graph-linguistic-fusion.pdf},
   slides = {https://www.canva.com/design/DAGGtB3tMG8/uRImNH7cwTY6Iw2qcKRmnw/view?utm_content=DAGGtB3tMG8&utm_campaign=designshare&utm_medium=link&utm_source=editor},
   supp = {https://youtu.be/fjGNWM_9Y4M?si=ajLrULBi1uVYaSA_}
-}
-
-@InProceedings{trokhymovych2024openmultilingualscoringreadability,
-      title={An Open Multilingual System for Scoring Readability of Wikipedia}, 
-      author={Mykola Trokhymovych and Indira Sen and Martin Gerlach},
-      booktitle = {To appear in ACL'24 Main track},
-      year={2024},
-      url = {https://arxiv.org/pdf/2406.01835},
-      selected={true},
-      bibtex_show={true},
-      preview={readability.png},
-      abstract={With over 60M articles, Wikipedia has become the largest platform for open and freely accessible knowledge. While it has more than 15B monthly visits, its content is believed to be inaccessible to many readers due to the lack of readability of its text. However, previous investigations of the readability of Wikipedia have been restricted to English only, and there are currently no systems supporting the automatic readability assessment of the 300+ languages in Wikipedia. To bridge this gap, we develop a multilingual model to score the readability of Wikipedia articles. To train and evaluate this model, we create a novel multilingual dataset spanning 14 languages, by matching articles from Wikipedia to simplified Wikipedia and online children encyclopedias. We show that our model performs well in a zero-shot scenario, yielding a ranking accuracy of more than 80% across 14 languages and improving upon previous benchmarks. These results demonstrate the applicability of the model at scale for languages in which there is no ground-truth data available for model fine-tuning. Furthermore, we provide the first overview on the state of readability in Wikipedia beyond English.},
-      code={https://gitlab.wikimedia.org/repos/research/readability-experiments},
-      arxiv={2406.01835}
 }
