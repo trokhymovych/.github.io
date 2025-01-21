@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-09-20 9:53
+date: 2024-12-19 9:53
 inline: true
 related_posts: false
 ---
 
-Served in the Program Committee of [NLP for Wikipedia Workshop at EMNLP 2024](https://meta.wikimedia.org/wiki/NLP_for_Wikipedia_(EMNLP_2024)/Call_for_Papers)
+Presented a poster at of my previous [KDD'23](https://dl.acm.org/doi/abs/10.1145/3580305.3599823) work at [DLBCN 2024](https://sites.google.com/view/dlbcn2024/home?authuser=0)
