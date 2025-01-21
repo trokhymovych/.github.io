@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Wrapped up teaching **Data Mining** and **Information Retrieval** at UPF with a 9/10 student evaluation! 🎓
+Wrapped up teaching **Data Mining** and **Information Retrieval**—rated 9/10 by students!🎓
